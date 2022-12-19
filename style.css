@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
 :root{
     --primary-color:#e42f92;
+    --off-white:#f1f5f9;
     --darkgrey:#475569;
 }
 body {
@@ -46,10 +47,21 @@ color:white
 /**navigation**/
 .navigation{
     background-color: var(--primary-color);
-    color:white
+    color:white;
+    padding:1rem;
+    border-bottom-left-radius: 1rem;
 }
 .navigation .link{
     color:white;
+}
+.navigation .nav-brand{
+    font-weight: bold;
+}
+.navigation .nav-pills{
+    text-align: right;
+}
+.navigation .link-active{
+    font-weight:bold;
 }
 /**header**/
 .hero{
@@ -67,4 +79,15 @@ text-align: center;
 }
 .hero .hero-heading .heading-inverted{
     color: var(--primary-color);
+}
+/**sections**/
+.section{
+padding:2rem;
+
+}
+.section h1{
+    text-align:center;
+}
+.ow{
+    background-color: var(--off-white);
 }
